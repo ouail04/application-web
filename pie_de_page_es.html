@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .pied_de_page {
+            background-color: #509163;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .pied_de_page img.picture7 {
+            margin-right: 10px;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        footer {
+            background-color: #4D7D5A;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .picture7 {
+            width: 4cm;
+            height: auto;
+            margin-top: -1cm;
+            text-align: center;
+        }
+
+        .paragraph1 {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        .paragraph2 {
+            display: flex; /* Utiliser un modèle de boîte flexible */
+           align-items: center;
+        }
+        .paragraph2 p
+        {
+            text-align: center;
+        }
+        div.pic3
+        {
+            margin-top: 2%;
+        }
+
+        @media only screen and (max-width: 480px) {
+          .pied_de_page {
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .paragraph1, .paragraph2 {
+            margin-top: 10px;
+            text-align: center;
+          }
+
+          .picture7 {
+            margin-bottom: 10px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="pied_de_page">
+        <div class="paragraph1">
+            <p>
+                <b>Neuro Audition</b><br>
+                147, AV. Hassan I<br>
+                Edificio. SYEH <br>
+                5º Piso (ascensor)-NADOR
+            </p>
+        </div>
+        <div class="pic3"><img src="pic3.png" class="picture7"></div>
+        <div class="paragraph2">
+            <p>
+                Email: neuro.audition0@gmail.com <br>Teléfono: 06 61 39 00 05
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Audioprotesista. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
